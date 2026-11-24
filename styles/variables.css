@@ -1,27 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
-  --main-font: 'Inter-Variable';
-  --accent-font: 'PressStart2P';
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
   --card-text-weight: 400;
   --card-title-weight: 785;
   --background-gradient:
-    repeating-linear-gradient(
-      to right,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    ),
-    repeating-linear-gradient(
-      to bottom,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    ),
-    linear-gradient(
-      to bottom,
-      #e7e7e7 0.01%,
-      #1a1a1a
-    );
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --container-width: clamp(375px, 260.56px + 30.52vw, 700px);
   --background-color: #fff;
   --text-color: #000;
-
+  --accent-color: #000;
+  --button-text-color: #fff;
+  --animation-fill-color: rgba(255, 0, 0, 1);
 }
