@@ -149,7 +149,6 @@ button {
     1px 0 #fff,
     0 -1px #fff;
   mix-blend-mode: hard-light;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
@@ -200,7 +199,8 @@ button {
 }
 
 .card__like-button {
-  padding: 10.5px 35px;
+  height: 38px;
+  width: 130px;
 }
 
 .like-icon {

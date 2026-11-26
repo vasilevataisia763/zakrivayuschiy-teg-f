@@ -61,13 +61,8 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon {
-  transform-origin: center;
-}
-
 .heart {
   transform-origin: center;
-  animation-name: "is-liked";
 }
 
 .like-icon.is-liked .heart {
